@@ -63,14 +63,14 @@ This phase covers the working system:
 ├── src/          # Java source code
 ├── sql/          # Database schema (DDL)
 ├── docs/         # Design report, ER diagram
-├── lib/          # mysql-connector.jar
+├── lib/          # mysql-connector-j-8.1.0.jar
 \`\`\`
 
 ## Setup & Usage
 
 1. Install MySQL/MariaDB and create a database.
 2. Run the script in `sql/` to create the schema.
-3. Add `lib/mysql-connector.jar` to the project's classpath.
+3. Add `lib/mysql-connector-j-8.1.0.jar` to the project's classpath.
 4. Update the database connection settings in the source code
    (host, database name, credentials).
 5. Run the application from `src/`.
